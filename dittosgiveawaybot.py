@@ -14,7 +14,7 @@ for submission in subreddit.get_new():
         insts.append(submission.title + ": " + submission.url) 
 
 if not insts: # empty lists are false. `not insts` will return true if it insts contains at least one entry
-    SMTPserver = 'smtp.mail.yahoo.com'
+    SMTPserver = 'Your SMTP server'
     sender = 'your.email@yourdomain.com'
     destination = ['recipient.email@recipientdomain.com']
 
